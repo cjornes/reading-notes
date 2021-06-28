@@ -9,4 +9,8 @@
 ## <strong>Growing at work, and outside work too</strong>
 <p>"Things like wisdom and achievement are the products of putting in hard work, not avoiding it. We live in a society where the instant gratification monkey sits on everyone’s shoulder."</p>
 
-##[Github Profile](https://github.com/cjornes)
+## <strong>Introduciton of Colin</strong>
+
+## <em>[Github Profile](https://github.com/cjornes)</em>
+
+<p>Hello, my name is Colin. I am new to coding and am excited to learn as much as I can.</p>
