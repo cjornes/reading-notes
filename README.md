@@ -1,4 +1,4 @@
 # Growth Mindset Notes
 
-##What is a growth mindset?
+##<strong>What is a growth mindset?</strong>
 <ul> <li> Fixed </li> <li> Growth </li> </ul>
