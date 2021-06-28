@@ -8,3 +8,5 @@
 
 ##<strong>Growing at work, and outside work too</strong>
 <p>"Things like wisdom and achievement are the products of putting in hard work, not avoiding it. We live in a society where the instant gratification monkey sits on everyone’s shoulder."</p>
+
+##[Github Profile] https://github.com/cjornes
