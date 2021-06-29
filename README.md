@@ -25,6 +25,6 @@
 
 ## What features should you look for in a text editor?
 <ol> <li> code completion </li> <li> syntax
-highlighting </li> <li> ) A nice variety of themes (to reduce strain on the eyes and
+highlighting </li> <li> A nice variety of themes (to reduce strain on the eyes and
    fatigue </li> <li> The ability to choose from a healthy selection of
 extensions available when you need them. </li> </ol> 
