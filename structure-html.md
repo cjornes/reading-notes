@@ -8,4 +8,4 @@
 
 ## An introduction to wireframing
 <ol> <li> What is a wireframe, and why do UX designers use them? </li> </ol>
-<p> Wireframing is a practice used by UX designers which allows them to define and plan the information hierarchy of their design for a website, app, or product. </p>
+<ul> <li> Wireframing is a practice used by UX designers which allows them to define and plan the information hierarchy of their design for a website, app, or product. </li> <ul>
