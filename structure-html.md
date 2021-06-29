@@ -9,3 +9,7 @@
 ## An introduction to wireframing
 <ol> <li> What is a wireframe, and why do UX designers use them? </li> </ol>
  <strong> Wireframing is a practice used by UX designers which allows them to define and plan the information hierarchy of their design for a website, app, or product. </strong>
+<ol> <li> Examples of wireframes </li> </ol>
+<strong> Wireframes drawn with paper and a pencil, or at a whiteboard, have the advantage of looking and being very easy to change, which can help tremendously in early conversations about your website or product. </strong>
+<strong> With the help of paper-prototypes, you can test with end users at every stage of ideation and design. Changes at these stages are much easier—and therefore cheaper—than changes deemed necessary after coding is under way. </strong>
+<strong> Switching later to software (after initially hand-drawing your wireframe) allows you to keep track of more detailed decisions. </strong>
