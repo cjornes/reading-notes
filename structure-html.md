@@ -3,7 +3,7 @@
 ## How to make wireframes in 6 steps
 <ol> <li> Do your research </li> <li> Prepare your research for refernce </li> <li> Make sure you have your user flow mapped out </li> <li> Draft, don't draw, Sketch don't illustrate </li> <li> Add some detail and get testing </li> <li> Start runnning your wireless into prototypes </li> </ol>
 
-## How to make your wire frame good: Thee Key Principles
+## How to make your wire frame good: Three Key Principles
 <ol> <li> Maintain calrity </li> <li> Gain user confidence </li> <li> Simplicity is key </li> </ol>
 
 ## An introduction to wireframing
