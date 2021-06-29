@@ -18,6 +18,6 @@
 #Choosing A Text Editor
 
 ##What is a text editor?
-<p>A <em>text editor</em> is a piece of software that you download and install on
+<ul> <liLA <em>text editor</em> is a piece of software that you download and install on
    your computer, or you access online through your <em>web browser</em>, that
-   allows you to write and manage text.</p>
+   allows you to write and manage text.</li> </ul>
