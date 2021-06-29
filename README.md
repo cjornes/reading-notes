@@ -15,9 +15,9 @@
 
 <p>Hello, my name is Colin. I am new to coding and am excited to learn as much as I can.</p>
 
-#Choosing A Text Editor
+# Choosing A Text Editor
 
-##What is a text editor?
-<ul> <liLA <em>text editor</em> is a piece of software that you download and install on
+## What is a text editor?
+<ul> <li> A <em>text editor</em> is a piece of software that you download and install on
    your computer, or you access online through your <em>web browser</em>, that
    allows you to write and manage text.</li> </ul>
