@@ -12,4 +12,4 @@
 <ul> <li> Examples of wireframes </li> </ul>
 <ol> <li> Wireframes drawn with paper and a pencil, or at a whiteboard, have the advantage of looking and being very easy to change, which can help tremendously in early conversations about your website or product. </li>
  <li> With the help of paper-prototypes, you can test with end users at every stage of ideation and design. Changes at these stages are much easier—and therefore cheaper—than changes deemed necessary after coding is under way. </li>
- <li> Switching later to software (after initially hand-drawing your wireframe) allows you to keep track of more detailed decisions. <li> </ol>
+ <li> Switching later to software (after initially hand-drawing your wireframe) allows you to keep track of more detailed decisions. </li> </ol>
