@@ -1,7 +1,6 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 <style>
   p{
-    color: black;
+    color: goldenrod;
   }
   
   h1{
@@ -10,7 +9,7 @@
   }
   
   div{
-    background-color: black;
+    background-color: goldenrod;
   }
   
   title{
@@ -24,4 +23,32 @@
 img{
   float: right;
 }
+
+body{
+  background-color: black;
+}
+
+h2{
+  color: gold;
+}
+
+a{
+  color: darkgoldenrod;
+}
+
+h1{
+  font-family: "Arbutus";
+}
+
+h2{
+  font-family: "Arbutus";
+}
+
+li{
+  font-family: "Audiowide"; sans-sarif;
+  font-size:medium
+}
   </style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"
