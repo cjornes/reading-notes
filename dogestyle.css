@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style>
+  p{
+    color: black;
+  }
+  
+  h1{
+    color: gold;
+    font-size: 3em;
+  }
+  
+  div{
+    background-color: black;
+  }
+  
+  title{
+    color: black;
+  }
+
+  p{
+  font-family: "Audiowide", sans-serif;
+}
+
+img{
+  float: right;
+}
+  </style>
