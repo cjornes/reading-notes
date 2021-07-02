@@ -10,8 +10,4 @@ if (userAge >= 15){
   if(ready == "Yes"){
     alert("TO THE MOON WE GO!!!");
   }
-  if(ready == "No"){
-    alert(BETTER LUCK NEXT TIME!)
-  }
 }
-
