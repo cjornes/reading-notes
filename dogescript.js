@@ -11,3 +11,6 @@ if (userAge >= 15){
     alert("TO THE MOON WE GO!!!");
   }
 }
+
+const myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
