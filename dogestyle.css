@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
 <style>
   p{
     color: goldenrod;
@@ -32,10 +34,6 @@ h2{
   color: gold;
 }
 
-a{
-  color: darkgoldenrod;
-}
-
 h1{
   font-family: "Arbutus";
 }
@@ -48,7 +46,11 @@ li{
   font-family: "Audiowide"; sans-sarif;
   font-size:medium
 }
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
   </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"
