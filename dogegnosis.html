@@ -38,10 +38,21 @@
           the SpaceX Falcon 9 rocket, which costs around $62 million to book, or in this instance 
           129 million DOGE coin. After guest hosting SNL, he later tweeted saying 
           "This would be the first time cryptocurrency will be used in space and that it will be 
-          the first meme in space.. TO THE MOOOOON!!"
-      </p>
+          the first meme in space.. TO THE MOOOOON!!"</p>
+    
+          <input type="text" id="colorInputText">
+
+          <input type="button" id="colorButton" value="Click To Change Color"
+          onclick="changeColor()"> 
+
+          <script>
+            function changeColor() {
+              Let color = document.getElementById("colorInputText").value;
+              document.body.style.backgroundColor = color;
+            }
         
-        
+        </script>
+
     </body>
 </html>
 
@@ -100,4 +111,4 @@ a{
 }
    </style>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus"

@@ -14,7 +14,7 @@
 
 ## Variables of JavaScript
   ### Definition of a Variable
-    <ul> <li>A variable is a container that stores data, adn these containers are named by the coder.</li> </ul>
+    <ul> <li>A variable is a container that stores data, and these containers are named by the coder.</li> </ul>
   ### Steps to Creating a Variable
     <ul> <li>You must create a variable declaration.</li> </ul>
   <p>Ex. var x; //variable decalration<br>
