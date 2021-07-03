@@ -22,3 +22,8 @@ if (ready == "No"){
     alert("BETTER LUCK NEXT TIME");
     window.stop();
   }
+
+
+  
+  
+  
