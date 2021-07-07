@@ -43,3 +43,14 @@
      
   #### Examples of an Operand and a Operator
   <ul> <li>Operand Ex. 1 2 3 4...<li> <br> <li>Operator Ex. ++,+, -, /, =</li> </ul>
+
+## JavaScript Loops
+  ### Statements
+<ol> <li>For</li> <br>
+     <li>Do... While</li> <br>
+     <li>While</li> <br>
+     <li>Labled</li> <br>
+     <li>Break</li> <br>
+     <li>Continue</li> <br>
+     <li>For.. In</li> <br>
+     <li>For... Of</li> <br> </ol> 
