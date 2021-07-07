@@ -2,9 +2,26 @@
 <html>
     <head>
       <title>DOGE COIN... Buy? Sell? Hold?</title>
-      <script src="dogescript.js"></script>
     </head>
     <body>
+
+      <script src="dogescript.js"></script>
+
+      <select onchange="color(this.value)">
+        <option value="">Color</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+        <option value="black">Black</option>
+      </select>
+
+      <script>
+        function color(value) {
+            document.body.style.backgroundColor=value;
+        }
+      </script>
+
         <h1>The Origins of DOGE</h1>
       <p>It all started with just a "dank" meme, and a collective dream. DOGE coin was the idea of two software
         engineers Billy Markus (of IBM) and Jackson Palmer (of Adobe). The newly create crypto currency started out as a joke,
@@ -39,12 +56,6 @@
           129 million DOGE coin. After guest hosting SNL, he later tweeted saying 
           "This would be the first time cryptocurrency will be used in space and that it will be 
           the first meme in space.. TO THE MOOOOON!!"</p>
-    
-          <input type="text" id="colorInputText">
-
-          <input type="button" id="colorButton" value="Click To Change Color"
-          onclick="changeColor()">
-
     </body>
 </html>
 

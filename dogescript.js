@@ -36,3 +36,7 @@ if (experienced == "No"){
     alert("TO THE MOON!!!");
   }
   
+  var amount = prompt("How many stars would you rate this webpage 1-5?");
+  for(let i = 0; i < amount; i++){
+    document.write("<img src='https://th.bing.com/th/id/R.cf863d3b7ccf6652380263ac0e3225c7?rik=OyM6mkuVEUYr%2fQ&riu=http%3a%2f%2ffindicons.com%2ffiles%2ficons%2f2297%2fsuper_mario%2f32%2fretro_star.png&ehk=UDkXUc8NWJGFliRwr4Nk8I9dvfPNvAPxMSTDFO%2fPcM8%3d&risl=&pid=ImgRaw'>");
+  }
