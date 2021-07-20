@@ -44,13 +44,13 @@ cd - which means change directories is a command that switches directories <br>
 ls - which means list <br></p>
 
 #### Steps to Pushing
-<ol> <li> git add . <li>
-    <li> git commit -m “edit growth mindset notes” <li>
-    <li> git config space dash dash global user.email “jonesguy333@gmail.com” <li>
-    <li> git config space dash dash global user.name “Colin Jones”<li>
-    <li> git commit -m “edit growth mindset notes” <li>
-    <li> git push <li>
-    <li> git push dash dash force, only if push doesn't go through <li>
+<ol> <li> git add . </li>
+    <li> git commit -m “edit growth mindset notes” </li>
+    <li> git config space dash dash global user.email “jonesguy333@gmail.com” </li>
+    <li> git config space dash dash global user.name “Colin Jones”</li>
+    <li> git commit -m “edit growth mindset notes” </li>
+    <li>git push </li>
+    <li>git push dash dash force, only if push doesn't go through</li>
 </ol>
 
 # CSS
