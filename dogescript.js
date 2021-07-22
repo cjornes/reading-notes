@@ -28,11 +28,11 @@ if (experienced == "No"){
   //if user is not ready they may not "take off"
 
   var takeOff;
-  while (takeOff != "Yes") {
-    takeOff = prompt("Are you ready for take off.. Yes? No?");
+  while (takeOff != "yes") {
+    takeOff = prompt("Are you ready for take off.. Yes? No?").toLowerCase();
   }
 
-  if(takeOff == "Yes"){
+  if(takeOff == "yes"){
     alert("TO THE MOON!!!");
   }
   

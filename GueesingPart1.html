@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 2 Lab</title>
+  </head>
+  <body>
+    <h1>Colin's Guessing Game</h1>
+    <p>Hello, my name is Colin. I am new to coding and am excited to learn as much as I can.
+    I first learned about coding when I was in 6th grade. My close friend Nickolas Tarrance taught me 
+    about basics of hacking, Jailbreaking devices, JTAGS, DDoS, hex code RGB mods, and other mods on a 
+    couple vdieo games. Ever since then I have been in love with technology. My friend later taught me 
+    the different languages of code such as Python, Java, and Javascript. Being so busy with sports and 
+    school pretty much all my life, I never got around to actaully getting my hands dirty with coding.
+     I look forward to becoming proficient with coding to acquire a supporting job for my future family,
+      and also finally be able to code with my frined Nick as well as my brother Keaton who is also 
+      enrolled in the Code Crew program.</p>
+
+      <h3>Top Ten Things I Love</h3>
+      <ol><li>Theology</li> <li>Music</li> <li>Art</li> <li>Wrestling</li> <li>Combat Sports</li>
+      <li>Working Out</li> <li>Skating</li> <li>Reading</li> <li>Biblical Research</li> <li>Traveling</li></ol>
+
+      <p>Here is one of my favortie pieces of art. It's a theologial piece of the Two Witnesses
+        that are to come in the future. This piece of art is apart of the Gerona Beatus.
+        The Gerona Beatus is a 10th-century illuminated manuscript 
+        currently housed in the museum of Girona Cathedral, Catalonia, Spain.
+        The manuscript contains two separate documents: the Commentary on the Apocalypse by 
+        Beatus of Liébana, a late eighth-century manuscript popular in medieval Spain 
+        and Jerome's commentary on the Book of Daniel. It includes 284 extant folios, each 
+        measuring 400 mm by 260 mm, copiously illustrated with 184 surviving miniatures, and has been 
+        described as one of the most richly decorated of the Beatus Commentaries, and one of the best 
+        documented. My love for Theology runs deep. After finishing coding school, I plan to go to 
+        seminary school.</p>
+
+
+  </body>
+</html>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Emetrius_%28Meister_der_Schule_von_T%C3%A1vara%29_002.jpg/640px-Emetrius_%28Meister_der_Schule_von_T%C3%A1vara%29_002.jpg?1626911471225"
+    alt="The Two Witnesses" width="100" height="600">
+
+<style>
+body{
+  background-image: url(https://64.media.tumblr.com/ccc4331dbc0865726bddb58dddc8a9c0/4717ef74ebef8fc0-33/s1280x1920/51254beb1a6757bf8ca8a98c827c6c41be54d65b.jpg);
+  outline: 2px solid white;
+}
+
+p{
+  color: white;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+img{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: large;
+}
+
+li{
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+
+ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<script>
+
+let name = prompt("Hello.. may we have your name please?");
+console.log(name);
+let userscore = 0;
+alert(" Hello " + name + " welcome to Colin's guessing game");
+
+let colin = prompt("Is my name spelled with two L's? y/n?").toLowerCase();
+  if (colin === "no" || colin === "n"){
+    alert("Thats correct!")
+    userscore += 2;
+  } else {
+    alert("Incorrect!")
+  }
+
+  let myAge = prompt("Am I 23 years old? y/n?").toLowerCase();
+   if (myAge === "no" || myAge === "n"){
+     alert("That's correct!")
+     userscore += 2;
+   } else {
+     alert("Close.. but no cigar " + name)
+   }
+
+   let midName = prompt("Is my middle name spelled Lewis? y/n?").toLowerCase();
+    if (midName === "no" || midName === "n"){
+      alert("Nice job " + name)
+      userscore += 2;
+    } else {
+      alert("WOMP WOMP! Correct answer is Louis")
+    }
+
+    let twin = prompt("Am I a twin? y/n?").toLowerCase();
+     if (twin === "yes" || twin === "y"){
+       alert("Dang you're on a roll!")
+       userscore += 2;
+     } else {
+       alert("Better luck next time " + name)
+     }
+
+     let birthPlace = prompt("Was I born in Memphis? y/n?").toLowerCase();
+      if (birthPlace === "yes" || birthPlace === "y"){
+        alert("YESSIR 901 SHELBY DRIVE LOOK ALIVE")
+        userscore += 2;
+      } else {
+        alert("Sowwy.. but thats wrong")
+      }
+
+      alert("Thank you so much for playing, good day! " + name)
+
+      </script>
