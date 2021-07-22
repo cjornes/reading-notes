@@ -10,14 +10,14 @@
     about basics of hacking, Jailbreaking devices, JTAGS, DDoS, hex code RGB mods, and other mods on a 
     couple vdieo games. Ever since then I have been in love with technology. My friend later taught me 
     the different languages of code such as Python, Java, and Javascript. Being so busy with sports and 
-    chool pretty much all my life, I never got around to actaully getting my hands dirty with coding.
+    school pretty much all my life, I never got around to actaully getting my hands dirty with coding.
      I look forward to becoming proficient with coding to acquire a supporting job for my future family,
-      and also finally be able to cdoe with my frined Nick as well as my brother Keaton who is also 
+      and also finally be able to code with my frined Nick as well as my brother Keaton who is also 
       enrolled in the Code Crew program.</p>
 
-      <h3>Few Things I Love</h3>
-      <ol><li>Music</li> <li>Theology</li> <li>Art</li> <li>Wrestling and combat sports</li>
-      <li>Working out</li></ol>
+      <h3>Top Ten Things I Love</h3>
+      <ol><li>Theology</li> <li>Music</li> <li>Art</li> <li>Wrestling</li> <li>Combat Sports</li>
+      <li>Working Out</li> <li>Skating</li> <li>Reading</li> <li>Biblical Research</li> <li>Traveling</li></ol>
 
       <p>Here is one of my favortie pieces of art. It's a theologial piece of the Two Witnesses
         that are to come in the future. This piece of art is apart of the Gerona Beatus.
@@ -28,7 +28,10 @@
         and Jerome's commentary on the Book of Daniel. It includes 284 extant folios, each 
         measuring 400 mm by 260 mm, copiously illustrated with 184 surviving miniatures, and has been 
         described as one of the most richly decorated of the Beatus Commentaries, and one of the best 
-        documented. My love for Theology runs deep.</p>
+        documented. My love for Theology runs deep. After finishing coding school, I plan to go to 
+        seminary school.</p>
+
+
   </body>
 </html>
 
@@ -37,11 +40,12 @@
 
 <style>
 body{
-  background-color: black; 
+  background-image: url(https://64.media.tumblr.com/ccc4331dbc0865726bddb58dddc8a9c0/4717ef74ebef8fc0-33/s1280x1920/51254beb1a6757bf8ca8a98c827c6c41be54d65b.jpg);
+  outline: 2px solid white;
 }
 
 p{
-  color: orange;
+  color: white;
   font-family: 'Zen Tokyo Zoo', cursive;
   font-size: x-large;
   text-align: center;
@@ -54,26 +58,31 @@ img{
 }
 
 h1{
-  color: orange;
+  color: white;
   text-align: center;
   font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 h3{
-  color: orange;
+  color: white;
   text-align: center;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: large;
 }
 
 li{
-  color: orange;
+  color: white;
   text-align: center;
+  font-size: large;
 }
 
 ol{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: 'Anton', sans-serif;
 }
+
 
 
 </style>
@@ -82,15 +91,21 @@ ol{
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
 <script>
 
 let name = prompt("Hello.. may we have your name please?");
 console.log(name);
+let userscore = 0;
 alert(" Hello " + name + " welcome to Colin's guessing game");
 
-  let colin = prompt("Is my name spelled with two L's? y/n?").toLowerCase();
-   if (colin === "no" || colin === "n"){
+let colin = prompt("Is my name spelled with two L's? y/n?").toLowerCase();
+  if (colin === "no" || colin === "n"){
     alert("Thats correct!")
+    userscore += 2;
   } else {
     alert("Incorrect!")
   }
@@ -98,31 +113,91 @@ alert(" Hello " + name + " welcome to Colin's guessing game");
   let myAge = prompt("Am I 23 years old? y/n?").toLowerCase();
    if (myAge === "no" || myAge === "n"){
      alert("That's correct!")
+     userscore += 2;
    } else {
      alert("Close.. but no cigar " + name)
    }
 
-  let midName = prompt("Is my middle name spelled Lewis? y/n?").toLowerCase();
-   if (midName === "no" || midName === "n"){
+   let midName = prompt("Is my middle name spelled Lewis? y/n?").toLowerCase();
+    if (midName === "no" || midName === "n"){
       alert("Nice job " + name)
+      userscore += 2;
     } else {
       alert("WOMP WOMP! Correct answer is Louis")
     }
 
-  let twin = prompt("Am I a twin? y/n?").toLowerCase();
-   if (twin === "yes" || twin === "y"){
+    let twin = prompt("Am I a twin? y/n?").toLowerCase();
+     if (twin === "yes" || twin === "y"){
        alert("Dang you're on a roll!")
+       userscore += 2;
      } else {
        alert("Better luck next time " + name)
      }
 
-  let birthPlace = prompt("Was I born in Memphis? y/n?").toLowerCase();
-   if (birthPlace === "yes" || birthPlace === "y"){
+     let birthPlace = prompt("Was I born in Memphis? y/n?").toLowerCase();
+      if (birthPlace === "yes" || birthPlace === "y"){
         alert("YESSIR 901 SHELBY DRIVE LOOK ALIVE")
+        userscore += 2;
       } else {
         alert("Sowwy.. but thats wrong")
       }
 
-      alert("Thank you so much for playing, good day! " + name);
+      alert("Thank you so much for playing, good day! " + name)
+
+      let guessNumber = "Guess a number 1-10";
+      let attempts = 4;
+      let answer = 7;
+      let response = null;
+
+      while(response !== answer) {
+
+        if(!attempts){
+          alert("No more tries...");
+          break;
+       }
+
+      response = parseInt(prompt(guessNumber));
+      attempts -= 1;
+       if (response === answer){
+         alert("Perfect");
+         userscore += 2;
+       }
+
+       if (response < answer){
+         alert("Too low.. you get 4 tries " + name);
+       }
+
+       if (response > answer){
+         alert("Too high.. you get 4 tries");
+       }
+
+    }
+
+      let guessAnOption = "Guess a pet that I've had";
+      let answers = ["fish", "dog"];
+      response = null;
+      attempts = 6;
+
+      hasAttempts: while (attempts) {
+
+        response = prompt(guessAnOption + " ..you got " + attempts + " attempts").toLowerCase();
+        attempts -= 1;
+
+        for (let i = 0; i < answers.length; i++) {
+          if (response === answers[i]) {
+            alert("Good job " + name + " You've made it to the end!");
+            userscore += 2;
+            break hasAttempts;
+          }
+        }
+
+        alert("OOF.. thats not it");
+      }
+
+      if (!attempts){
+        alert("Gosh darn no more tries.. better luck next time");
+      }
+
+      alert("Awesome guessing " + name + ". You've scored " + userscore + " out of 14 points");
 
 </script>
