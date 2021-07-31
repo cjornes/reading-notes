@@ -1,0 +1,40 @@
+ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+td{
+  border: solid 2px black;
+}
+
+th{
+  border: solid 2px black
+}
+
+#salesTable{
+  position: absolute;
+  top: 320px;
+  left: 390px;
+  background-color: grey;
+}
+
+body{
+  background-image: url("https://www.desktopbackground.org/p/2015/08/03/989497_the-world-hd-desktop-wallpapers-high-definition-fullscreen_3840x2400_h.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto;
+  background-color: black;
+}
