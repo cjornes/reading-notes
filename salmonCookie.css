@@ -4,16 +4,27 @@ ul{
   margin: 0;
   padding: 0;
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 h1{
   text-align: center;
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 h2{
   text-align: center;
   color: white;
+  font-family: 'Lobster', cursive;
+  font-size: x-large;
+  font-stretch: extra-expanded;
+  color: blueviolet;
+}
+
+p{
+  color: white;
+  text-align: center;
 }
 
 td{
@@ -26,8 +37,8 @@ th{
 
 #salesTable{
   position: absolute;
-  top: 320px;
-  left: 390px;
+  top: 380px;
+  left: 405px;
   background-color: grey;
 }
 
